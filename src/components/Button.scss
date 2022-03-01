@@ -1,0 +1,32 @@
+@import "src/styles/colors.module.scss";
+@import "src/styles/sizes.module.scss";
+
+button {
+  padding: 4px;
+  border-width: 3px;
+  border-radius: $button-radius;
+  color: $black;
+}
+
+button.purple {
+  background-color: $purple;
+  border-color: $purple;
+}
+button.purple-text {
+  color: $purple;
+}
+button.purple:hover,
+button.purple-text:hover {
+  border-color: $purple;
+  color: $purple;
+  background-color: $black;
+}
+
+button.cyan {
+  background-color: $cyan;
+  border: $cyan;
+}
+button.cyan:hover {
+  border: $cyan;
+  color: $black;
+}
